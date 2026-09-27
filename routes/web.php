@@ -10,7 +10,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AdminProductController;
 use App\Http\Controllers\AdminOrderController;
 
-// Page d'accueil Test Test2
+// Page d'accueil Test Test2 Test@
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 // Boutique (accessible à tous, même sans compte)
